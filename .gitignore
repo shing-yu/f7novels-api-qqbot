@@ -1,0 +1,9 @@
+.idea/
+venv/
+src/config.json
+test.py
+recovery/
+output/
+logs/
+log/
+bot.db

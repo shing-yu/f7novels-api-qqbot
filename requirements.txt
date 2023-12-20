@@ -1,0 +1,7 @@
+fastapi
+amiyabot
+pydantic==1.10.0a1
+loguru
+requests
+beautifulsoup4
+cos-python-sdk-v5
