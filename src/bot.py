@@ -16,8 +16,8 @@ from fanqie_api import download, update
 from amiyabot import AmiyaBot, Message, Chain
 from amiyabot import Equal
 
-appid = os.getenv('APPID')
-token = os.getenv('TOKEN')
+# appid = os.getenv('APPID')
+# token = os.getenv('TOKEN')
 
 with open("config.json", "r", encoding='utf-8') as conf:
     try:
@@ -55,7 +55,7 @@ user_id TEXT);
 ''')
 
 
-bot = AmiyaBot(appid=appid, token=token)
+bot = AmiyaBot(appid=config["appid"], token=config["token"])
 
 
 @bot.on_message(keywords=Equal('/start'))

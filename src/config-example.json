@@ -1,8 +1,10 @@
 {
   "comment": "这是一个示例配置文件, 请复制此文件并重命名为config.json, 然后修改为你自己的配置",
+  "appid": "your appid",
+  "token": "your token",
   "database": "bot.db",
   "save_dir": "output",
-  "def_encoding": "utf-8",
+  "encoding": "utf-8",
   "filename_format": "{title}_{book_id}.txt",
   "speed_limit": 0.5, "?speed_limit": "下载速度限制, 单位为s/it, 最低为0.25",
   "time_range": "false", "?time_range": "可用时间, 用-分隔, 例如 18-22 表示晚上6点到10点（北京时间），不限制请填‘false’",
